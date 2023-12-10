@@ -24,5 +24,5 @@ __libc_start_main_impl 0x00007ffff7a01e40
 _start 0x00005555555568e5
 ```
 
-Note that there is a call to `sleep(5)` in the Open Server start handler, `start_handler()`. I have noticed that when I uncomment this line, the signal 11 does not occur.
+Note that there is a call to `sleep(5)` in the Open Server start handler, `start_handler()` which is commented. I have noticed that when I uncomment this line, the signal 11 does not occur.
 
